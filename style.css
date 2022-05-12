@@ -1,0 +1,98 @@
+body {
+    background: #151515;
+    margin: 0;
+}
+
+header h1 {
+    margin: 30px;
+    color: #EEEEFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#description h2 {
+    color: #151515;
+    font-family: sans-serif; 
+}
+
+#description p {
+    color: #151515;
+    font-family: sans-serif; 
+    font-size: 18px;
+    line-height: 40px;
+}
+
+nav ul {
+    background-color: #E6C377;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    width: 20%;
+}
+
+li a {
+    color: #EEEEFF;
+    font-family: sans-serif;
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    align-items: center;
+    padding: 20px 20px;
+    text-align: center;
+    border: 20px;
+    border-right: 1px outset rgb(214, 214, 214);
+}
+
+li a:hover {
+    color: #232323;
+    background-color: rgb(214, 214, 214);
+}
+
+figure {
+    margin: 0;
+}
+#headshot {
+    margin: 0;
+    padding: 0;
+    width: 55%;
+    float: left;
+}
+#headshot img {
+    margin: 0;
+    width: 100%;
+}
+.information {
+    background-color: #E6C377;
+    margin: 0px;
+    
+}
+
+.information h2, p {
+    color: #232323;
+    padding: 13px;
+    padding-right: 100px;
+}
+
+#about {
+    width: 45%;
+    float: left;
+    overflow: hidden;
+}
+
+#utt {
+    background-color: aqua;
+    float: left;
+}
+
+footer {
+    background-color: #2B2928;
+    width: 100%;
+}
+
+footer p {
+    color: #EEEEFF;
+}
