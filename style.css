@@ -55,37 +55,55 @@ li a:hover {
 figure {
     margin: 0;
 }
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 2;
+    column-gap: 3px;
+    row-gap: 5px;
+    padding: 0;
+    margin: 0;
+}
 #headshot {
     margin: 0;
-    padding: 0;
-    width: 55%;
-    float: left;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
 }
 #headshot img {
+    height: 100%;
     margin: 0;
-    width: 100%;
 }
 .information {
     background-color: #E6C377;
     margin: 0px;
-    
 }
 
 .information h2, p {
     color: #232323;
     padding: 13px;
-    padding-right: 100px;
 }
 
 #about {
-    width: 45%;
     float: left;
     overflow: hidden;
+    text-align: center;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;}
+
+#work-link {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
 }
 
-#utt {
-    background-color: aqua;
-    float: left;
+#gallery-link {
+    text-align: center;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 2;
 }
 
 footer {
