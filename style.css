@@ -3,24 +3,6 @@ body {
     margin: 0;
 }
 
-header h1 {
-    margin: 30px;
-    color: #EEEEFF;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#description h2 {
-    color: #151515;
-    font-family: sans-serif; 
-}
-
-#description p {
-    color: #151515;
-    font-family: sans-serif; 
-    font-size: 18px;
-    line-height: 40px;
-}
-
 nav ul {
     background-color: #17183B;
     list-style-type: none;
