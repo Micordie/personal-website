@@ -1,5 +1,5 @@
 body {
-    background: #151515;
+    background: #17183B;
     margin: 0;
 }
 
@@ -22,11 +22,12 @@ header h1 {
 }
 
 nav ul {
-    background-color: #E6C377;
+    background-color: #17183B;
     list-style-type: none;
     margin: 0px;
     padding: 0px;
     overflow: hidden;
+    border-bottom: #F5FFFA solid 3px;
 }
 
 nav li {
@@ -49,7 +50,15 @@ li a {
 
 li a:hover {
     color: #232323;
-    background-color: rgb(214, 214, 214);
+    background-color: #6F71A1;
+}
+
+nav li h1 {
+    color: #F5FFFA;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
 }
 
 figure {
@@ -57,10 +66,11 @@ figure {
 }
 
 #grid-container {
+    background-color: #F5FFFA;
     display: grid;
     grid-template-columns: 2;
-    column-gap: 3px;
-    row-gap: 5px;
+    column-gap: 2px;
+    row-gap: 3px;
     padding: 0;
     margin: 0;
 }
@@ -75,12 +85,12 @@ figure {
     margin: 0;
 }
 .information {
-    background-color: #E6C377;
+    background-color: #C9B095;
     margin: 0px;
 }
 
-.information h2, p {
-    color: #232323;
+.information h1, h2, p {
+    color: #17183B;
     padding: 13px;
 }
 
@@ -107,10 +117,13 @@ figure {
 }
 
 footer {
-    background-color: #2B2928;
     width: 100%;
+    border-top: #F5FFFA solid 3px;
 }
 
-footer p {
-    color: #EEEEFF;
+footer h3, h5 {
+    margin: 0;
+    padding: 5px;
+    background-color: #17183B;
+    color: #F5FFFA;
 }
