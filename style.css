@@ -1,6 +1,7 @@
-body {
+body, html {
     background: #FA8072;
     margin: 0;
+    height: 100%;
 }
 
 nav ul {
@@ -69,6 +70,7 @@ figure {
 .information {
     background-color: #807e80;
     margin: 0px;
+    height: 100%;
 }
 
 .information h1, h2, p {
@@ -99,9 +101,50 @@ figure {
     grid-row-start: 2;
 }
 
+#blender {
+    background-color: #807e80;
+    width: 18%;
+    height: 100%;
+    float: left;
+}
+
+table {
+    background-color: #F8F8FF;
+    width: 82%;
+    float: right;
+}
+
+.left {
+    padding: 0;
+    margin: 0;
+    border-left: 3px solid #F8F8FF;
+    border-right: 3px solid #F8F8FF;
+}
+
+.right {
+    padding: 0;
+    margin: 0;
+    border-right: 3px solid #F8F8FF;
+}
+
+table img, video {
+    margin: 0;
+    padding: 0;
+    transition: transform 0.25s ease-out;
+}
+
+.left img:hover, video:hover {
+    transform: scale(1.2) translateX(40%);
+}
+
+.right img:hover, video:hover {
+    transform: scale(1.2) translateX(-40%);
+}
+
 footer {
     width: 100%;
     border-top: #F8F8FF solid 3px;
+    clear: both;
 }
 
 footer h3, h5 {
@@ -124,6 +167,7 @@ footer li {
 
 footer img {
     float: right;
+    margin-right: 25px;
 }
 
 #contact {
