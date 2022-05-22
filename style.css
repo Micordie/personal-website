@@ -1,5 +1,5 @@
 body, html {
-    background: #FA8072;
+    background: salmon;
     margin: 0;
     height: 100%;
 }
@@ -47,12 +47,11 @@ figure {
     margin: 0;
 }
 
-#grid-container {
+.grid-container {
     background-color: #F8F8FF;
     display: grid;
-    grid-template-columns: 2;
     column-gap: 2px;
-    row-gap: 3px;
+    row-gap: 2px;
     padding: 0;
     margin: 0;
 }
@@ -69,11 +68,16 @@ figure {
 }
 .information {
     background-color: #807e80;
-    margin: 0px;
+    margin: 0;
     height: 100%;
 }
 
-.information h1, h2, p {
+.information ul {
+    list-style-type: none;
+    color: #F8F8FF;
+}
+
+.information h1, h2, h3, p {
     color: #F8F8FF;
     padding: 13px;
 }
@@ -99,6 +103,77 @@ figure {
     grid-column-start: 4;
     grid-column-end: 4;
     grid-row-start: 2;
+}
+
+#experience {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    overflow: wrap;
+}
+
+#experience h3, p {
+    padding: 13px;
+    margin: 4px;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+
+#skills {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+#skills ul {
+    font-size: 20px;
+    line-height: 55px;
+}
+
+#education {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+
+#awards {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+
+#awards ul {
+    line-height: 30px;
+}
+
+#awards li {
+    margin-bottom: 15px;
+}
+
+#activities {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+
+#activities li {
+    margin-bottom: 15px;
+}
+
+
+.item {
+    background-color: #5f5d5f;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.item h2, h3, p, ul {
+    padding: 13px;
 }
 
 #blender {
@@ -141,10 +216,26 @@ table img, video {
     transform: scale(1.2) translateX(-40%);
 }
 
+#contact-page {
+    float: left;
+}
+
+aside {
+    color: #f8f8ffaa;
+    padding: 0;
+    padding-left: 35px;
+}
+
+hr {
+    width: 50%;
+}
+
 footer {
-    width: 100%;
+    background-color: #FA8072;
     border-top: #F8F8FF solid 3px;
+    bottom: 0;
     clear: both;
+    width: 100%;
 }
 
 footer h3, h5 {
@@ -154,6 +245,7 @@ footer h3, h5 {
     line-height: 30px;
     background-color: #FA8072;
     color: #F8F8FF;
+    width: 100%;
 }
 
 footer ul {
@@ -170,6 +262,6 @@ footer img {
     margin-right: 25px;
 }
 
-#contact {
+#contact-foot {
     float: left;
 }
